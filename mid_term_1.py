@@ -5,8 +5,8 @@ import time
 import cv2
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd=r'C:\Users\nguye\AppData\Local\tesseract.exe'
-#input_text = 'NGUYEN BA CHUNG'
-image = cv2.imread('Chung8.jpg')
+input_text = 'NGUYEN BA CHUNG'
+image = cv2.imread('image/Chung8.jpg')
 # img2 = cv2.resize(img2, (int(img2.shape[1]/7), int(img2.shape[0]/7)))
 temp_face = image.copy()
 
